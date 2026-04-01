@@ -13,7 +13,7 @@ spec:
         app: nginx-demo
     spec:
       containers:
-      - name: nginx
-        image: nginx-placeholder
+      - name: test-app
+        image: test-app
         ports:
         - containerPort: 80
